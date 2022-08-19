@@ -1,0 +1,6 @@
+[MASTER]
+
+jobs=4
+
+[MESSAGES CONTROL]
+disable=missing-docstring,unused-argument
