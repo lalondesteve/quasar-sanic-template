@@ -5,10 +5,11 @@ A Sanic & Quasar Project
 ## Clone this repo, rename it and update to your remote
 
 ```bash
-git clone
+git clone https://github.com/lalondesteve/quasar-sanic-template.git
 mv quasar-sanic-template your-awesome-new-app
 cd your-awesome-new-app
-git remote set-url origin http://github.com/YOU/your-awesome-new-app
+(Create your new github repo)
+git remote set-url origin git@github.com:YOURNAME/your-awesome-new-app.git
 git push
 ```
 
