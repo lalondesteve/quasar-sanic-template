@@ -1,0 +1,10 @@
+#! /usr/bin/env python3
+
+from sys import argv
+from app import app
+
+if __name__ == '__main__':
+    if argv[-1] == 'dev':
+        app.run(dev=True, auto_reload=True, reload_dir="/dist/")
+    else:
+        app.run(host='0.0.0.0')
